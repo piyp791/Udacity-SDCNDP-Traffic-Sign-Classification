@@ -1,0 +1,12 @@
+arch-->lenet-dropout-every  epochs->60 batch size-->32 accuracy->93.9825811579
+arch-->leNet-0-0-0-0  epochs->50 batch size-->32 accuracy->90.3958828149
+arch-->leNet-0-0-0-1  epochs->50 batch size-->32 accuracy->92.1456848763
+arch-->leNet-0-0-0-2  epochs->50 batch size-->32 accuracy->91.646872522
+arch-->leNet-0-0-0-3  epochs->50 batch size-->32 accuracy->62.1615201881
+arch-->leNet-1-0-0-0  epochs->50 batch size-->32 accuracy->93.3095803633
+arch-->leNet-1-1(hst-eq)-0-0  epochs->60 batch size-->32 accuracy->91.9714964418
+arch-->leNet-1-1(hst-eq)-0-2  epochs->60 batch size-->32 accuracy->94.766429137
+arch-->leNet-1-1(hst-eq)-0-4  epochs->60 batch size-->32 accuracy->90.8076009548
+arch-->leNet-1-1(hst-eq)-0-4  epochs->60 batch size-->32 accuracy->88.7885985739
+arch-->(leNet-1fc)-1-1(hst-eq)-0-4  epochs->60 batch size-->32 accuracy->94.3863816358
+arch-->multi-layer-conv-3conv-2fc  epochs->10 batch size-->32 accuracy->95.122723671
