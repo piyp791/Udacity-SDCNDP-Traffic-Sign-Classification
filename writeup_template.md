@@ -323,7 +323,7 @@ So I will have to go back to the this previous architecture of 3conv-2fc.
 
 ####1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
-Here are nine German traffic signs that I found on the web:
+Here are five German traffic signs that I found on the web:
 
 
 [image3]: ./additional-data/turn-left-ahead.jpg "Left Turn image"
@@ -336,7 +336,20 @@ Here are nine German traffic signs that I found on the web:
 ![alt text][image3] ![alt text][image4] ![alt text][image5] 
 ![alt text][image6] ![alt text][image7]
 
-The stop sign image might be difficult to classify because because the actual sign is small part of the whole image and the classifier could go off the course by considering the features present outside the sign in th image
+
+**Thoughts on images**
+
+The **left-turn ahead sign image** has size 32x32, same as our data set images size. Also, there is nothing significant in the background to throw off the classifier. So it should not have any problem classifiying this image.
+
+The **Caution sign image** has size 32x32, same as our data set images size. Also, there is nothing significant in the background to throw off the classifier. So it should not have any problem classifiying this image.
+
+The **Thirty speed limit image** has size 32x32, same as our data set images size. Also, there is nothing significant in the background to throw off the classifier. So it should not have any problem classifiying this image.
+
+The **Fifty speed limit image** has size 310x318, nearly 10 times the size of images in our dataset. Compressing a larger image to a smaller size should not be a problematic issue as probably scaling up could be. The image takes considerable portion of the image. So there is nothing significant in the background to throw off the classifier. So it should not have any problem classifiying this image.
+
+The **stop sign** image might be difficult to classify because a) the size is 1152 x 864 pixels and b)because the actual sign is small part of the whole image and the classifier could go off the course by considering the features present outside the sign in th image
+
+Other properties like brightness and contrast of the images should not matter much since we perform normalization and histogram-equalization before sendinf it to the classifier. 
 
 
 **Here are the results of the prediction:**
