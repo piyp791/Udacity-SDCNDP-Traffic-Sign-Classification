@@ -10,3 +10,6 @@ arch-->leNet-1-1(hst-eq)-0-4  epochs->60 batch size-->32 accuracy->90.8076009548
 arch-->leNet-1-1(hst-eq)-0-4  epochs->60 batch size-->32 accuracy->88.7885985739
 arch-->(leNet-1fc)-1-1(hst-eq)-0-4  epochs->60 batch size-->32 accuracy->94.3863816358
 arch-->multi-layer-conv-3conv-2fc  epochs->10 batch size-->32 accuracy->95.122723671
+arch-->3conv-2fc - 1-1-1-5-diff-prob-relu  epochs->50 batch size-->32 accuracy->96.7379255787
+arch-->3conv-2fc - 1-1-1-5-diff-prob-relu  epochs->30 batch size-->32 accuracy->12.27236738
+arch-->3conv-2fc - 1-1-1-5-diff-prob-relu  epochs->40 batch size-->32 accuracy->23.3254156779
