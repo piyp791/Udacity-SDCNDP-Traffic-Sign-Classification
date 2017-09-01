@@ -15,7 +15,7 @@ The goals / steps of this project are the following:
 
 ### The Data Set - A look inside
 
-Python's numpy library was sufficient to get the job of getting data statistics done here. Here's the summary: 
+The dataset used for this project is [German Traffic Sign Dataset](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) which cabn be downloaded from [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip). Python's numpy library was sufficient to get the job of getting data statistics done here. Here's the summary: 
 
 1. The training set consists of **34799 images**.
 2. The testing set consists of **12630 images**

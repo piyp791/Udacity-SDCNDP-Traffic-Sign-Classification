@@ -19,7 +19,7 @@ http://thebotspeaks.com/Udacity-Self-Driving-Car-Nanodegree-Program-Traffic-Sign
 
 ### Project Set Up
 
-1. Download the data set, which is German Traffic Sign Dataset. This is a pickled dataset in which we've already resized the images to 32x32. It contains a training, validation and test set.
+1. Download the data set from [here](https://d17h27t6h515a5.cloudfront.net/topher/2017/February/5898cd6f_traffic-signs-data/traffic-signs-data.zip). This is a pickled dataset in which we've already resized the images to 32x32. It contains a training, validation and test set.
 
 2. Set up the [CarND Term1 Starter Kit](https://classroom.udacity.com/nanodegrees/nd013/parts/fbf77062-5703-404e-b60c-95b78b2f3f9e/modules/83ec35ee-1e02-48a5-bdb7-d244bd47c2dc/lessons/8c82408b-a217-4d09-b81d-1bda4c6380ef/concepts/4f1870e0-3849-43e4-b670-12e6f2d4b7a7).
 
