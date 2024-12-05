@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 ### Project Approach and Results
 ---
 
-http://thebotspeaks.com/Udacity-Self-Driving-Car-Nanodegree-Program-Traffic-Sign-Classification-Project/
+https://bitsandmusic.com/post/traffic-sign-classification/
 
 
 ### Project Set Up
